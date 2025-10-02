@@ -1,1 +1,59 @@
-  
+  .block-heading {
+            color: #3b99e0; /* Blue heading color */
+        }
+        
+        /* Layout Styling */
+        body {
+            background-color: #f8f9fa; /* Slight off-white background for the body */
+        }
+        .main-card {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05); /* Soft shadow around the main content */
+        }
+
+        /* Summary Block Styling */
+        .summary {
+            background-color: #f7fbff; /* Specified background color */
+            border-top: 3px solid #5ea4f3; /* Specified border-top color and thickness */
+            padding: 20px;
+            height: 100%; /* Ensure it fills the height of the row */
+        }
+        .summary-item {
+            padding-bottom: 10px;
+            border-bottom: 1px solid #dee2e6; /* Light gray border bottom for separator */
+            margin-bottom: 10px;
+        }
+
+        /* Product Block Styling */
+        .product {
+            border-bottom: 1px solid #eee; /* Separator line between products */
+            padding-bottom: 20px;
+            margin-bottom: 20px;
+        }
+        .product:last-child {
+            border-bottom: none; /* No border for the last product */
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+        .product-info {
+            font-size: 0.9em;
+            color: #6c757d;
+        }
+        .product-title {
+            color: #3b99e0;
+            font-weight: 500;
+        }
+        .quantity-input {
+            width: 50px; /* Small width for quantity input */
+            text-align: center;
+            padding: 0.2rem 0.5rem;
+            margin: 0 10px;
+        }
+        
+        /* Button Styling */
+        .btn-checkout {
+            background-color: #428bca; /* A common blue shade for buttons */
+            border-color: #428bca;
+        }
